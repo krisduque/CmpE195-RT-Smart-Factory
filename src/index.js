@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-// import Square from "./Square";
-import Grid from "./Grid";
 import FormContainer from "./FormContainer";
 
 import "./styles.css";

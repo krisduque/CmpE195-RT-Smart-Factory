@@ -30,6 +30,10 @@ class FormContainer extends Component {
     });
   }
 
+  handleClick() {
+    console.log("Clicked!");
+  }
+
   render() {
     return (
       <div>
@@ -42,7 +46,7 @@ class FormContainer extends Component {
           handleGridChange={this.handleGridChange}
         />
         {this.state.grid}
-        {console.log(this.state)}
+        <button onClick={this.handleClick}>Submit</button>
         {console.log(JSON.stringify(this.state))}
       </div>
     );

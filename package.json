@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "aws-sdk": "2.408.0",
     "l1-path-finder": "1.0.0",
     "ndarray": "1.0.18",
     "react": "16.8.0",

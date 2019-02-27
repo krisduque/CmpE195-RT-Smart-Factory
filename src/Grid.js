@@ -57,14 +57,7 @@ class Grid extends Component {
   render() {
     let newGrid = this.createGrid(this.props.rows, this.props.columns);
     // console.log(newGrid);
-    return (
-      <div>
-        {newGrid}
-        <button name="grid" onClick={this.props.handleChange} value={newGrid}>
-          Update
-        </button>
-      </div>
-    );
+    return <div>{newGrid}</div>;
   }
 }
 
